@@ -1,0 +1,36 @@
+Pasages used:
+
+
+"The Rainbow Passage"
+
+"Comma Gets Cure"
+
+"North Wind and Sun"
+
+"Arthur the Rat"
+
+"The Grandfather Passage"
+
+-------------------------------------------------------
+
+Recording method
+
+Recording Duration: For each subject, the experiment uses four oral reading passages ("The Rainbow Passage," "Comma Gets Cure," "North Wind and Sun," "Arthur the Rat," and "The Grandfather Passage").
+Each oral reading session appears to be several minutes long, but the exact duration is not explicitly stated—however, samples are processed in overlapping 0.5-second frames, with ~995 training samples and ~870 test samples per subject. This suggests total speaking time per subject is at least several minutes.
+
+Speech Content: Subjects are asked to orally read standard English passages commonly used in voice studies. These cover a wide variety of phonemic and prosodic content
+
+________________________________________________________________________
+
+
+Voice sample passages and why they are being used 
+
+Phonetic diversity: The passages contain a wide variety of sounds (consonants, vowels, diphthongs) and speech patterns, ensuring the analysis covers the full range of possible vocal tract configurations and speech sounds.
+
+Repetition and consistency: Using standard texts allows for direct comparison between subjects and experiments. Since the text and its pronunciation are predictable, differences in features can be attributed to the speaker rather than the spoken material.
+
+Established baseline: These texts are widely adopted in clinical and research contexts, so results can be benchmarked against prior work.
+
+Elicits natural speech: They’re long enough and contextually meaningful to evoke normal story-telling speech, including prosody and expressiveness, rather than unnatural repetition of syllables or words.
+
+Minimizes confounding variables: By having everyone read the same passage, researchers control for linguistic complexity and articulation, focusing on physiology (like cardiac influence) instead.
