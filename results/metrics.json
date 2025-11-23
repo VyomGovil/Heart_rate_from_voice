@@ -1,0 +1,152 @@
+[
+    {
+        "rpeak_err": 0.0,
+        "cycle_err": 7.6923076923076925,
+        "sdsd_err": 0.0,
+        "bp_lf_err": 0,
+        "bp_hf_err": 0,
+        "peaks_found": 3,
+        "peaks_real": 3,
+        "file": "sample_01.npz"
+    },
+    {
+        "rpeak_err": 0.0,
+        "cycle_err": 4.430379746835443,
+        "sdsd_err": 0.0,
+        "bp_lf_err": 0,
+        "bp_hf_err": 0,
+        "peaks_found": 3,
+        "peaks_real": 3,
+        "file": "sample_02.npz"
+    },
+    {
+        "rpeak_err": 1.6908212560386475,
+        "cycle_err": 2.5334232108751826,
+        "sdsd_err": 9.852120624275642,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 7,
+        "peaks_real": 7,
+        "file": "sample_03.npz"
+    },
+    {
+        "rpeak_err": 2.6271186440677967,
+        "cycle_err": 16.624110352923914,
+        "sdsd_err": 27.27807306179767,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 8,
+        "peaks_real": 7,
+        "file": "sample_04.npz"
+    },
+    {
+        "rpeak_err": 0.0,
+        "cycle_err": 11.26984126984127,
+        "sdsd_err": 80.81860628447433,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 7,
+        "peaks_real": 7,
+        "file": "sample_05.npz"
+    },
+    {
+        "rpeak_err": 14.830917874396135,
+        "cycle_err": 31.980676328502415,
+        "sdsd_err": 72.27493906956039,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 6,
+        "peaks_real": 6,
+        "file": "sample_26.npz"
+    },
+    {
+        "rpeak_err": 4.436937515520504,
+        "cycle_err": 53.914086273374174,
+        "sdsd_err": 100.3252740051795,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 6,
+        "peaks_real": 7,
+        "file": "sample_27.npz"
+    },
+    {
+        "rpeak_err": 7.239819004524887,
+        "cycle_err": 42.081447963800905,
+        "sdsd_err": 29.247145514291297,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 6,
+        "peaks_real": 5,
+        "file": "sample_28.npz"
+    },
+    {
+        "rpeak_err": 13.15083483356278,
+        "cycle_err": 35.27833668678739,
+        "sdsd_err": 76.97166812572603,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 7,
+        "peaks_real": 6,
+        "file": "sample_29.npz"
+    },
+    {
+        "rpeak_err": 8.703712659799132,
+        "cycle_err": 23.83915569097172,
+        "sdsd_err": 29.670944323035982,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 6,
+        "peaks_real": 6,
+        "file": "sample_30.npz"
+    },
+    {
+        "rpeak_err": 16.219446044076722,
+        "cycle_err": 31.409065801689994,
+        "sdsd_err": 134.25904065047098,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 8,
+        "peaks_real": 7,
+        "file": "sample_31.npz"
+    },
+    {
+        "rpeak_err": 17.73049645390071,
+        "cycle_err": 9.21985815602837,
+        "sdsd_err": 6.980482232854683,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 8,
+        "peaks_real": 8,
+        "file": "sample_32.npz"
+    },
+    {
+        "rpeak_err": 14.999946758667688,
+        "cycle_err": 16.275991038901783,
+        "sdsd_err": 14.82028364788961,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 7,
+        "peaks_real": 8,
+        "file": "sample_33.npz"
+    },
+    {
+        "rpeak_err": 13.496932515337424,
+        "cycle_err": 6.134969325153374,
+        "sdsd_err": 44.234955804675245,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 7,
+        "peaks_real": 7,
+        "file": "sample_34.npz"
+    },
+    {
+        "rpeak_err": 10.460251046025105,
+        "cycle_err": 17.573221757322177,
+        "sdsd_err": 6.185478276270132,
+        "bp_lf_err": 0.0,
+        "bp_hf_err": 0.0,
+        "peaks_found": 7,
+        "peaks_real": 5,
+        "file": "sample_35.npz"
+    }
+]

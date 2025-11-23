@@ -6,6 +6,7 @@ import librosa
 from scipy.signal import lfilter
 import time
 import threading
+import os
 
 # --- Import the processing functions from your teammate's file ---
 try:
@@ -19,7 +20,7 @@ except ImportError:
 SERIAL_PORT = 'COM3'  # <-- IMPORTANT: CHANGE THIS to your Arduino's port
 BAUD_RATE = 9600
 SAMPLE_RATE = 48000          # (Hz) From paper
-DURATION = 30                # (seconds) Duration of recording
+DURATION = 60                # (seconds) Duration of recording
 LPC_ORDER = 30               # (Pharynx model order) From paper
 TARGET_LOUDNESS = -12.0      # (LUFS) From paper
 ENHANCEMENT_COEFF = 0.97     # (alpha) From paper
@@ -96,13 +97,19 @@ def record_ecg(port, baud, stop_event):
 
 def main():
     global audio_frames, ecg_data_list
+
+    output_folder = "test_dataset"
+
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+        print(f"Created new folder: {output_folder}")
     
     output_filename = input(f"Enter a name for this data sample (e.g., rest_01): ")
     if not output_filename:
         print("Invalid name. Exiting.")
         return
-        
-    output_filepath = f"{output_filename}.npz"
+    output_filepath = os.path.join(output_folder, f"{output_filename}.npz")
+    #output_filepath = f"{output_filename}.npz"
     
     stop_event = threading.Event()
     

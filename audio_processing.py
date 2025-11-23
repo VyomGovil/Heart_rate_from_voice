@@ -60,7 +60,7 @@ loudness = meter.integrated_loudness(data)
 target_loudness = -12.0
 print(f"Original loudness: {loudness:.2f} LUFS")
 normalized_audio = pyln.normalize.loudness(data, loudness, target_loudness)
-
+"""
 # --- Lip vibration removal ---
 alpha = 0.97
 b = np.array([1, -alpha])
@@ -78,3 +78,4 @@ pharynx_features, frame_indices = pharynx_demodulation(glottal_waveform, rate)
 
 print(pharynx_features.shape)
 print(pharynx_features)
+"""
