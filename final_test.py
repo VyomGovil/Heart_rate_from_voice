@@ -159,7 +159,7 @@ def main():
                     results.append(m)
                     
                     # Save plot for first 5
-                    if len(results) <= 5:
+                    if len(results) >= 5 and len(results) <= 10 :
                         plt.figure(figsize=(12,4))
                         plt.plot(e_norm, label='True', alpha=0.7)
                         plt.plot(pred, label='Pred', alpha=0.7)
